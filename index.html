@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diététicienne-Nutritionniste</title>
+    
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+              <img src="./image/logo+diet.jpg" alt="Logo de mon site web" width="30" height="30" class="d-inline-block align-text-top">
+            </a>
+         
+          
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Sandrine Coupart</a>
+        </nav>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Mes services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"> A propos</a>
+                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tarifs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="http://localhost/ECF1/connexion.php">Connexion</a>
+                  </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="text-center">
+            <div class="container">
+                <h1>Sandrine Coupart</h1>
+                <p class="lead text-muted animated animate__fadeInUp">est une diététicienne-nutritionniste dont le cabinet est situé à Caen. En tant que
+                    professionnelle de santé, elle prend en charge des patients dans le cadre de consultations diététiques.
+                    Madame Coupart anime également des ateliers de prévention et d’information sur la nutrition</p>
+                <p>
+                    <a href="#" class="btn btn-primary my-2">Prendre rendez-vous</a>
+                    <a href="#" class="btn btn-secondary my-2">En savoir plus</a>
+                </p>
+            </div>
+        </section>
+        <section id="recipes" class="py-5">
+          <div class="container">
+            <h2 class="text-center">Mes Recettes</h2>
+            <div class="row" id="recipe-cards">
+              
+            </div>
+          </div>
+         
+
+         
+          
+        
+             
+              
+          <div id="recipe-cards" class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card">
+                  <img src="./image/2022 05 poisson epices courgettes.jpeg" class="card-img-top" alt="Recette 1">
+                  <div class="card-body">
+                    <h5 class="card-title">Poisson aux épices et courgettes</h5>
+                    <p class="card-text" id="text" style="display: none;">500g de poisson,
+                      800g de courgettes,
+                      100 ml de lait de coco,
+                      1 cuillère à soupe d’huile,
+                      1 cuillère à café de curcuma,
+                      3 gousses d’ail,
+                      1/2 citron,
+                      Menthe ou coriandre,
+                      1 cuillère à café de curry,
+                      Sel, poivre 
+                      couper le poisson en morceaux moyens.
+                      Faire une marinade avec le curcuma, l’huile, les gousses d’ail écrasées, le citron, le poivre, le sel (et le curry si vous optez pour son ajout). Y mettre le poisson pendant au moins 1 heure.
+                      Préparer les courgettes en morceaux très fins
+                      Faire revenir dans la poêle à feu vif au début dans l’huile les courgettes et le poisson pendant 5 minutes. Rajouter le lait de coco et faire cuire à feu doux environ 10 minutes.
+                      Parsemer de menthe ou de coriandre.</p>
+                    <button type="button" class="btn btn-primary btn-sm" id="btn">En savoir plus</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <img src="./image/choux chinois sauce soja graines sesame.jpeg" class="card-img-top" alt="Recette 2">
+                  <div class="card-body">
+                    <h5 class="card-title">Choux chinois sauce soja graines sesame</h5>
+                    <p class="card-text" id="text2" style="display: none;">1 chou (environ 500g)
+                      2 échalotes
+                      1 gousse d’ail
+                      3 carottes
+                      1 cuillère à soupe d’huile
+                      1 cuillère à soupe de sauce soja non sucrée
+                      Graines de sésame
+                      Emincer le chou en lanières.
+                      Faire revenir les échalotes et l’ail dans l’huile.
+                      Rajouter les carottes (préalablement coupées en petits morceaux). Faire revenir tout en remuant régulièrement.
+                      Rajouter le chou et le faire cuire 10 minutes. En fin de cuisson, verser la sauce soja et mélanger le tout.
+                      Mettre la préparation dans un plat et parsemer de graines de sésame</p>
+                    <button type="button" class="btn btn-primary btn-sm" id="btn2">En savoir plus</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card">
+                  <img src="./image/2022 08 brioche suisse chocolat raisins.jpeg" class="card-img-top" alt="Recette 2">
+                  <div class="card-body">
+                    <h5 class="card-title">Brioche suisse chocolat raisins</h5>
+                    <p class="card-text" id="text2" style="display: none;">Pâte briochée
+                      260ml de lait demi écrémé
+                      1 sachet de levure de boulangerie
+                      500 g de farine
+                      40 g de sucre
+                      1 oeuf
+                      80 g de beurre
+                      (1 cuillère à soupe de fleur d’oranger si fruits secs ensuite)
+                      Crème pâtissière
+                      250 ml de lait
+                      40 g de sucre
+                      25 g de farine
+                      1 œuf entier
+                      1 blanc d’oeuf
+                      Extrait de vanille
+                      Soit avec 100g de fruits secs
+                      Soit 100g de pépites de chocolat.Préparation de la pâte briochée
+                      Mettre tous les ingrédients de la pâte dans la cuve de votre MAP (machine à pain) et lancer le programme "pâte" (vous pouvez bien sûr préparer votre pâte sans avoir nécessairement une machine à pain).
+                      A la fin du programme, sortir la pâte de la cuve et la dégazer sur un plan de travail légèrement fariné.
+                      Préparation de la crème pâtissière
+                      Faire chauffer le lait avec l’extrait de vanille.
+                      A part, mélanger, l’oeuf entier avec le blanc d’œuf puis le sucre et enfin la farine.
+                      Mélanger avec le lait chaud et faire épaissir sur feu doux.
+                      Filmer au contact et laisser refroidir.
+                      Finalisation des brioches / pains aux raisins
+                      Etaler la pâte en un grand rectangle.
+                      Répartir la crème dessus puis parsemer de fruits secs ou de pépites de chocolat.
+                      Rouler la pâte avec la garniture. Mettre au frais 30 min.
+                      Couper des rondelles d'environ 2 - 3 cm de large. Les déposer dans un moule en formant un rond.
+                      Il n’est pas nécessaire de les coller, les escargots vont gonfler.
+                      Enfourner pour 20 à 30 min à 180°C (Th. 7).
+                      
+                      </p>
+                    <button type="button" class="btn btn-primary btn-sm" id="btn2">En savoir plus</button>
+                  </div>
+                </div>
+              </div>
+             
+              <div class="col-md-6">
+                <div class="card">
+                  <img src="./image/2023 05 barquettes fruits rouges -.jpg" class="card-img-top" alt="Recette 2">
+                  <div class="card-body">
+                    <h5 class="card-title">Barquettes fruits rouges</h5>
+                    <p class="card-text" id="text2" style="display: none;">100 g de fromage blanc à 20% MG
+                      1 yaourt entier au citron
+                      1 citron jaune bio
+                      100 g de sucre
+                      200 g de farine
+                      1 sachet de levure chimique
+                      3 oeufs
+                      100 g de fruits rouges surgelés : passés rapidement au mixeur.Préchauffer le four à 180 °C.
+                      Mélanger le fromage blanc avec le yaourt au citron. Puis le jus de citron et le zeste.
+                      Ajouter les œufs et fouetter le tout.
+                      Ajouter le sucre puis la farine et la levure et bien mélanger le tout.
+                      Rajouter les fruits surgelés en brisures. Faire cuire environ 20 min.
+                      Déguster froid.
+                      </p>
+                    <button type="button" class="btn btn-primary btn-sm" id="btn2">En savoir plus</button>
+                  </div>
+                </div>
+              </div>
+             
+             
+
+              
+          
+          
+          <div id="recipe-details" class="container">
+           
+          </div>
+          
+            <footer class="footer">
+              <div>
+                        <a href="Mention.html">Mentions légales</a> <br>
+                      
+                      <a href="politique de confidentialité.html">Politique de confidentialité</a>
+                    
+                  </div>
+         
+          </footer>
+         
+          
+          
+          
+          <script src="index.js"></script>
+           
